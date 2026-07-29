@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#183f73">
+  <title>大乐透专家杀号对照 · 离线版</title>
+  <style>
+    :root{--ink:#182535;--muted:#697585;--blue:#1f4e8c;--blue2:#eaf2fb;--paper:#f3efe7;--card:#fffdf8;--line:#d8d2c8;--red:#c94a45;--orange:#efae43}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:radial-gradient(circle at 85% 0,#dce9f7,transparent 32%),var(--paper);font:14px/1.5 system-ui,-apple-system,"Microsoft YaHei",sans-serif}
+    button{font:inherit}.shell{width:min(1180px,calc(100% - 24px));margin:auto;padding:28px 0 40px}.top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:20px}
+    .eyebrow{margin:0 0 5px;color:var(--blue);font-size:10px;font-weight:900;letter-spacing:.14em}.top h1{margin:0;font-size:clamp(26px,4vw,42px);line-height:1.15}.sub{margin:8px 0 0;color:var(--muted)}
+    .top-actions{display:grid;gap:8px;min-width:190px}.issue{padding:13px 18px;border:1px solid #b9c8da;border-radius:12px;background:#fff9;text-align:center}.issue span{display:block;color:var(--muted);font-size:10px}.issue strong{font-size:22px}
+    .offline{margin-top:7px;padding:5px 9px;border-radius:7px;color:#285f41;background:#dff2e6;font-size:10px;font-weight:800}.refresh{height:43px;border:0;border-radius:10px;color:#fff;background:var(--blue);font-weight:900;cursor:pointer}.refresh:disabled{opacity:.65;cursor:wait}.refresh-status{margin:0;color:var(--muted);font-size:10px;text-align:center}
+    .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.stat,.panel{border:1px solid var(--line);border-radius:14px;background:var(--card);box-shadow:0 8px 24px #2935480b}.stat{padding:16px}.stat span,.stat small{display:block;color:var(--muted)}.stat strong{display:block;font-size:32px;line-height:1.2}.stat.accent{color:white;border-color:var(--blue);background:var(--blue)}.stat.accent span,.stat.accent small{color:#dce8f7}
+    .panel{padding:22px;margin-bottom:18px}.head{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;margin-bottom:16px}.head h2{margin:0;font-size:21px}.head p{margin:4px 0 0;color:var(--muted);font-size:12px}
+    .actions{display:flex;gap:7px}.actions button,.rules button,.filters button{padding:8px 12px;border:1px solid #b9c5d4;border-radius:8px;background:white;font-size:11px;font-weight:800;cursor:pointer}.actions button:hover,.rules button:hover,.filters button:hover{border-color:var(--blue)}
+    .cards{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.expert{position:relative;display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:center;min-height:74px;padding:12px;border:1px solid #ccd3dd;border-radius:11px;background:#fff;cursor:pointer}.expert input{position:absolute;opacity:0}.expert.on{color:#fff;border-color:var(--blue);background:linear-gradient(145deg,#245997,#173f75)}.rank{display:grid;width:28px;height:28px;place-items:center;border-radius:8px;color:var(--blue);background:#e4edf8;font-size:10px;font-weight:900}.expert b,.expert small{display:block}.expert small{color:var(--muted);font-size:9px}.expert.on small{color:#dbe8f7}.check{display:grid;width:24px;height:24px;place-items:center;border:1px solid #b7c4d3;border-radius:50%;color:var(--blue);background:white;font-weight:900}
+    .rules{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-top:14px}.rules button.on,.filters button.on{color:#fff;border-color:var(--blue);background:var(--blue)}.rules .note{margin-left:auto;color:var(--muted);font-size:11px}
+    .matrix-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:22px}.filters{display:flex;flex-wrap:wrap;gap:6px}.numbers{display:grid;grid-template-columns:repeat(7,minmax(48px,1fr));gap:14px;margin:22px 0}.ball{position:relative;display:grid;width:56px;height:56px;place-items:center;justify-self:center;border:1px solid #aaa;border-radius:50%;background:#fff;font-weight:900}.ball.out{opacity:.25;border-style:dashed}.ball.single{color:#49300c;border-color:#b77615;background:var(--orange)}.ball.repeat{color:#fff;border-color:#9d2f2b;background:var(--red)}.ball.hide{opacity:.08}.badge{position:absolute;right:-5px;bottom:-5px;padding:2px 5px;border:2px solid white;border-radius:9px;color:#fff;background:var(--blue);font-size:8px}.killbadge{position:absolute;right:-2px;top:-5px;display:grid;width:19px;height:19px;place-items:center;border-radius:50%;color:#fff;background:#182535;font-size:8px}
+    .result{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:10px;background:#faf7f1}.result div{padding:12px;border-right:1px dotted #c8c0b3}.result div:last-child{border:0}.result b,.result span{display:block}.result b{font-size:22px}.result span{color:var(--muted);font-size:10px}
+    .legend{display:grid;gap:8px}.legend div{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;padding:9px;border:1px solid #e1ddd5;border-radius:8px;background:#fbf9f4}.dot{width:22px;height:22px;border:1px solid #aaa;border-radius:50%;background:#fff}.dot.single{background:var(--orange)}.dot.repeat{background:var(--red)}.legend b,.legend small{display:block}.legend small{color:var(--muted);font-size:9px}
+    .killer-cards{grid-template-columns:repeat(4,1fr)}.killer .rank{color:#80520e;background:#ffe0a7}.killer.on{color:var(--ink);border-color:#c98727;background:linear-gradient(145deg,#fff6e4,#ffe5b6)}.killer.on small{color:var(--muted)}.mini{display:flex;gap:4px;margin-top:4px}.mini i{display:grid;width:24px;height:24px;place-items:center;border-radius:50%;background:#ffd990;font-size:9px;font-style:normal;font-weight:900}
+    .groups{display:grid;gap:9px}.group{display:grid;grid-template-columns:145px 1fr;min-height:58px;border:1px solid #d9dee6;border-radius:10px;background:#fff;overflow:hidden}.glabel{display:flex;gap:8px;align-items:center;padding:11px;background:#edf3fa}.glabel strong{color:var(--blue);font-size:27px}.glabel span{font-size:11px;font-weight:800}.gnums{display:flex;flex-wrap:wrap;gap:7px;align-items:center;padding:10px}.gnum{display:grid;width:34px;height:34px;place-items:center;border:1px solid #91aac8;border-radius:50%;color:var(--blue);background:#fff;font-size:11px;font-weight:900}.gnum.single{color:#5a3908;border-color:#c6872a;background:#ffd98f}.gnum.repeat{color:#fff;border-color:#9d2f2b;background:var(--red)}.empty{color:#999;font-size:11px}
+    footer{color:var(--muted);font-size:11px;text-align:center}.modal{position:fixed;z-index:20;inset:0;display:none;place-items:center;padding:20px;background:#10233a99;backdrop-filter:blur(5px)}.modal.open{display:grid}.dialog{width:min(430px,100%);padding:25px;border:1px solid #fff8;border-radius:16px;background:var(--card);box-shadow:0 25px 80px #10233a55}.dialog h2{margin:0}.dialog p{color:var(--muted);font-size:12px}.dialog label{display:grid;gap:6px;margin:13px 0;font-size:11px;font-weight:900}.dialog input{height:46px;padding:0 12px;border:1px solid #b7c2d0;border-radius:9px;font:inherit}.dialog-actions{display:flex;gap:8px}.dialog-actions button{flex:1;height:43px;border:1px solid #b9c5d4;border-radius:9px;background:#fff;font-weight:900;cursor:pointer}.dialog-actions .confirm{color:#fff;border-color:var(--blue);background:var(--blue)}.error{min-height:18px;margin:5px 0;color:#a9322e!important;font-weight:800}
+    @media(max-width:850px){.summary{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:repeat(2,1fr)}.killer-cards{grid-template-columns:repeat(2,1fr)}.matrix-layout{grid-template-columns:1fr}.legend{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.shell{padding-top:18px}.top{flex-direction:column}.issue{width:100%}.panel{padding:15px}.head{align-items:flex-start;flex-direction:column}.cards,.killer-cards{grid-template-columns:1fr 1fr}.expert{padding:9px;min-height:68px}.numbers{grid-template-columns:repeat(5,1fr);gap:10px}.ball{width:48px;height:48px}.legend{grid-template-columns:1fr}.group{grid-template-columns:105px 1fr}.glabel strong{font-size:22px}.rules .note{width:100%;margin-left:0}.summary .stat{padding:13px}.stat strong{font-size:27px}}
+  </style>
+</head>
+<body>
+<main class="shell">
+  <header class="top"><div><p class="eyebrow">EXPERT SIGNAL MATRIX</p><h1>大乐透专家杀号对照</h1><p class="sub">自选25码专家与杀号专家，离线生成合集、冲突矩阵和支持数集合</p></div><div class="top-actions"><div class="issue"><span>数据期次</span><strong id="issueText">2026085</strong><div class="offline" id="modeText">✓ 离线可用</div></div><button class="refresh" id="refreshBtn">↻ 刷新最新数据</button><p class="refresh-status" id="refreshStatus">当前显示内置数据</p></div></header>
+  <section class="summary" id="summary"></section>
+  <section class="panel"><div class="head"><div><h2>自选专家 · 25码方案合集</h2><p>选择参考专家及合集门槛。</p></div><div class="actions"><button data-all="pool">全选</button><button data-clear="pool">清空</button></div></div><div class="cards" id="poolCards"></div><div class="rules"><button data-rule="any">至少1位</button><button class="on" data-rule="majority">过半专家</button><button data-rule="all">全部专家</button><span class="note" id="ruleNote"></span></div></section>
+  <section class="panel"><div class="head"><div><h2>合集 × 杀号矩阵</h2><p id="matrixNote"></p></div><div class="filters"><button class="on" data-filter="all">全部号码</button><button data-filter="conflict">仅冲突</button><button data-filter="repeat">重复杀号</button></div></div><div class="matrix-layout"><div><div class="numbers" id="numbers"></div><div class="result" id="result"></div></div><aside class="legend"><div><i class="dot"></i><span><b>蓝色支持徽标</b><small>被几位25码专家选中</small></span></div><div><i class="dot single"></i><span><b>单次杀号</b><small>被1位已选杀号专家排除</small></span></div><div><i class="dot repeat"></i><span><b>重复杀号</b><small>被2位或以上专家排除</small></span></div><div><i class="dot" style="opacity:.25;border-style:dashed"></i><span><b>合集之外</b><small>未达到当前支持门槛</small></span></div></aside></div></section>
+  <section class="panel"><div class="head"><div><h2>自选杀号专家</h2><p>矩阵颜色和统计仅按当前勾选人员计算。</p></div><div class="actions"><button data-all="kill">全选</button><button data-clear="kill">清空</button></div></div><div class="cards killer-cards" id="killerCards"></div></section>
+  <section class="panel"><div class="head"><div><h2>不同专家支持数的号码集合</h2><p>每个号码只出现在一个“恰好 N 位支持”的集合中。</p></div></div><div class="groups" id="groups"></div></section>
+  <footer>完整静态前端 · 除刷新外全部功能均可离线使用 · 密码不会保存到浏览器</footer>
+</main>
+<div class="modal" id="refreshModal" aria-hidden="true"><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle"><h2 id="dialogTitle">刷新最新数据</h2><p>请输入网站设置中 <b>root</b> 秘钥对应的密码。密码仅用于本次请求。</p><label>刷新密码<input id="refreshPassword" type="password" autocomplete="current-password" placeholder="请输入密码"></label><p class="error" id="refreshError"></p><div class="dialog-actions"><button id="cancelRefresh">取消</button><button class="confirm" id="confirmRefresh">验证并刷新</button></div></section></div>
+<script src="config.js"></script>
+<script>
+let currentIssue="2026085";
+let experts=[
+ {name:"彩运2016",score:"近10中6期 · 5连红",nums:[2,3,4,5,6,9,11,12,13,14,15,16,20,22,24,25,26,27,28,29,30,31,32,33,34]},
+ {name:"傻欣欣",score:"近10中6期 · 4连红",nums:[1,3,4,5,6,7,8,9,12,13,16,17,19,20,21,24,25,26,27,28,29,30,32,33,34]},
+ {name:"材叔",score:"近10中6期 · 4连红",nums:[2,4,5,6,7,9,10,11,12,13,14,16,19,20,21,22,23,25,27,28,30,32,33,34,35]},
+ {name:"木星的王",score:"近10中6期 · 4连红",nums:[1,2,3,5,6,8,9,11,12,13,14,15,16,17,18,20,21,22,23,24,26,29,31,34,35]},
+ {name:"泪梦",score:"近10中6期 · 3连红",nums:[1,2,3,4,7,8,9,10,11,12,15,18,19,20,21,22,24,25,26,27,30,32,33,34,35]}
+];
+let killers=[
+ {name:"专业大神",score:"近10中10 · 18连红",nums:[3,10,17]},{name:"月圆花好",score:"近10中10 · 18连红",nums:[2,8,30]},
+ {name:"大宝贝",score:"近10中10 · 17连红",nums:[10,12,19]},{name:"寄劫丶",score:"近10中10 · 16连红",nums:[3,5,6]},
+ {name:"allison",score:"近10中10 · 15连红",nums:[18,19,23]},{name:"必中一等奖",score:"近10中10 · 15连红",nums:[8,15,23]},
+ {name:"沫沫小宝贝",score:"近10中10 · 14连红",nums:[9,16,33]},{name:"刘畅",score:"近10中10 · 14连红",nums:[14,26,30]}
+];
+let selectedE=new Set(experts.map(x=>x.name)),selectedK=new Set(killers.map(x=>x.name)),rule="majority",filter="all";
+const pad=n=>String(n).padStart(2,"0");
+const STORAGE_KEY="dlt-dashboard-latest-v1";
+const endpoint=()=>String(window.DLT_CONFIG?.refreshEndpoint||"").replace(/\/$/,"");
+function applyPayload(payload,persist=true){
+ if(!payload||!Array.isArray(payload.experts)||!Array.isArray(payload.killers))throw new Error("返回数据格式错误");
+ currentIssue=String(payload.issue||currentIssue);
+ experts=payload.experts.map(x=>({name:x.name,score:x.score||`${x.streak||""}${x.best?` · ${x.best}连红`:""}`,nums:x.nums||x.numbers||[]}));
+ killers=payload.killers.map(x=>({name:x.name,score:x.score||"",nums:x.nums||x.numbers||[]}));
+ selectedE=new Set(experts.map(x=>x.name));selectedK=new Set(killers.map(x=>x.name));
+ issueText.textContent=currentIssue;modeText.textContent="✓ 已保存到本机";
+ if(persist)localStorage.setItem(STORAGE_KEY,JSON.stringify({issue:currentIssue,experts,killers,updatedAt:new Date().toISOString()}));
+ render();
+}
+try{const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");if(saved)applyPayload(saved,false)}catch(_){}
+function counts(){
+ const pc=new Map(),kc=new Map();
+ experts.filter(x=>selectedE.has(x.name)).forEach(x=>x.nums.forEach(n=>pc.set(n,(pc.get(n)||0)+1)));
+ killers.filter(x=>selectedK.has(x.name)).forEach(x=>x.nums.forEach(n=>kc.set(n,(kc.get(n)||0)+1)));
+ return {pc,kc};
+}
+function card(x,i,type){
+ const on=(type==="pool"?selectedE:selectedK).has(x.name);
+ return `<label class="expert ${type==="kill"?"killer ":""}${on?"on":""}"><input type="checkbox" data-type="${type}" data-name="${x.name}" ${on?"checked":""}><span class="rank">#${i+1}</span><span><b>${x.name}</b><small>${x.score}</small>${type==="kill"?`<span class="mini">${x.nums.map(n=>`<i>${pad(n)}</i>`).join("")}</span>`:""}</span><span class="check">${on?"✓":"+"}</span></label>`;
+}
+function render(){
+ poolCards.innerHTML=experts.map((x,i)=>card(x,i,"pool")).join("");killerCards.innerHTML=killers.map((x,i)=>card(x,i,"kill")).join("");
+ const {pc,kc}=counts(),ec=selectedE.size,kcN=selectedK.size;
+ const threshold=ec===0?99:rule==="all"?ec:rule==="majority"?Math.floor(ec/2)+1:1;
+ const pool=[...Array(35)].map((_,i)=>i+1).filter(n=>(pc.get(n)||0)>=threshold);
+ const conflicts=pool.filter(n=>kc.has(n)),repeat=pool.filter(n=>(kc.get(n)||0)>1),remaining=pool.filter(n=>!kc.has(n));
+ const unique=kc.size,repeatUnique=[...kc].filter(([,v])=>v>1).length;
+ summary.innerHTML=`<div class="stat"><span>已选25码专家</span><strong>${ec}</strong><small>共${experts.length}位</small></div><div class="stat"><span>已选杀号专家</span><strong>${kcN}</strong><small>${unique}个不同杀号</small></div><div class="stat"><span>重复杀号</span><strong>${repeatUnique}</strong><small>按当前选择计算</small></div><div class="stat accent"><span>当前冲突</span><strong>${conflicts.length}</strong><small>杀号后剩余${remaining.length}码</small></div>`;
+ ruleNote.textContent=ec?`当前门槛：至少 ${threshold}/${ec} 位专家支持`:"请至少选择1位25码专家";matrixNote.textContent=`当前合集 ${pool.length} 码 · 已选择 ${kcN} 位杀号专家`;
+ numbers.innerHTML=[...Array(35)].map((_,i)=>i+1).map(n=>{const inside=pool.includes(n),k=kc.get(n)||0,p=pc.get(n)||0,hide=filter==="conflict"&&!(inside&&k)||filter==="repeat"&&!(inside&&k>1);return `<div class="ball ${!inside?"out":k>1?"repeat":k===1?"single":""} ${hide?"hide":""}"><span>${pad(n)}</span>${inside&&k?`<i class="killbadge">×${k}</i>`:""}${p?`<i class="badge">${p}/${ec}</i>`:""}</div>`}).join("");
+ result.innerHTML=`<div><b>${pool.length}</b><span>合集号码</span></div><div><b>${conflicts.length}</b><span>与杀号冲突</span></div><div><b>${remaining.length}</b><span>杀号后剩余</span></div>`;
+ groups.innerHTML=ec?[...Array(ec)].map((_,i)=>ec-i).map(s=>{const ns=[...Array(35)].map((_,i)=>i+1).filter(n=>(pc.get(n)||0)===s);return `<div class="group"><div class="glabel"><strong>${s}</strong><span>位专家支持<br>${ns.length}个号码</span></div><div class="gnums">${ns.length?ns.map(n=>`<i class="gnum ${(kc.get(n)||0)>1?"repeat":(kc.get(n)||0)===1?"single":""}">${pad(n)}</i>`).join(""):`<em class="empty">暂无号码</em>`}</div></div>`}).join(""):`<div class="empty">请先选择至少1位25码专家</div>`;
+ document.querySelectorAll("[data-rule]").forEach(b=>b.classList.toggle("on",b.dataset.rule===rule));document.querySelectorAll("[data-filter]").forEach(b=>b.classList.toggle("on",b.dataset.filter===filter));
+}
+async function refreshData(password){
+ const base=endpoint();if(!base)throw new Error("请先在 config.js 中填写 refreshEndpoint");
+ const headers={"x-refresh-password":password};
+ const rankingRes=await fetch(`${base}?mode=ranking&t=${Date.now()}`,{cache:"no-store",headers});
+ const ranking=await rankingRes.json().catch(()=>({}));
+ if(rankingRes.status===401)throw new Error("刷新密码错误");
+ if(!rankingRes.ok)throw new Error(ranking.error||"榜单读取失败");
+ const detail=async(item,type)=>{
+   const res=await fetch(`${base}?mode=detail&id=${encodeURIComponent(item.id)}&issue=${encodeURIComponent(ranking.issue)}&type=${type}&t=${Date.now()}`,{cache:"no-store",headers});
+   const data=await res.json().catch(()=>({}));if(!res.ok)throw new Error(data.error||"专家方案读取失败");return data;
+ };
+ const [poolDetails,killDetails]=await Promise.all([
+   Promise.all(ranking.experts.map(x=>detail(x,"pool"))),
+   Promise.all(ranking.killers.map(x=>detail(x,"kill")))
+ ]);
+ return {issue:ranking.issue,experts:ranking.experts.map((x,i)=>({...x,nums:poolDetails[i].numbers})),killers:ranking.killers.map((x,i)=>({...x,nums:killDetails[i].numbers}))};
+}
+document.addEventListener("change",e=>{const el=e.target;if(!el.dataset.type)return;const set=el.dataset.type==="pool"?selectedE:selectedK;el.checked?set.add(el.dataset.name):set.delete(el.dataset.name);render()});
+document.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.rule){rule=b.dataset.rule;render()}if(b.dataset.filter){filter=b.dataset.filter;render()}if(b.dataset.all){(b.dataset.all==="pool"?selectedE:selectedK).clear();(b.dataset.all==="pool"?experts:killers).forEach(x=>(b.dataset.all==="pool"?selectedE:selectedK).add(x.name));render()}if(b.dataset.clear){(b.dataset.clear==="pool"?selectedE:selectedK).clear();render()}});
+refreshBtn.onclick=()=>{refreshError.textContent="";refreshPassword.value="";refreshModal.classList.add("open");refreshModal.setAttribute("aria-hidden","false");setTimeout(()=>refreshPassword.focus(),0)};
+cancelRefresh.onclick=()=>{refreshModal.classList.remove("open");refreshModal.setAttribute("aria-hidden","true")};
+confirmRefresh.onclick=async()=>{
+ if(!refreshPassword.value){refreshError.textContent="请输入刷新密码";return}
+ confirmRefresh.disabled=cancelRefresh.disabled=refreshBtn.disabled=true;confirmRefresh.textContent="正在刷新…";refreshError.textContent="";refreshStatus.textContent="正在获取最新数据…";
+ try{const payload=await refreshData(refreshPassword.value);applyPayload(payload,true);refreshStatus.textContent=`更新成功：${new Date().toLocaleString("zh-CN",{hour12:false})}`;refreshModal.classList.remove("open");refreshModal.setAttribute("aria-hidden","true");refreshPassword.value=""}
+ catch(err){refreshError.textContent=err?.message||"刷新失败";refreshStatus.textContent="刷新失败，已保留当前数据"}
+ finally{confirmRefresh.disabled=cancelRefresh.disabled=refreshBtn.disabled=false;confirmRefresh.textContent="验证并刷新"}
+};
+refreshPassword.addEventListener("keydown",e=>{if(e.key==="Enter")confirmRefresh.click()});
+render();
+</script>
+</body>
+</html>
