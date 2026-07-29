@@ -1,0 +1,23 @@
+大乐透专家杀号对照｜原网页完整离线镜像
+
+一、直接离线打开
+1. 解压整个压缩包，不能只单独取出 index.html。
+2. 打开根目录的 index.html。
+3. 专家选择、合集规则、单专家切换、杀号筛选、矩阵和号码集合均可离线运行。
+
+二、刷新功能
+刷新按钮、密码弹窗及刷新逻辑均按原网页保留。
+离线打开时没有在线服务器，因此无法读取 /api/refresh。
+如部署到支持原接口的服务器，可恢复联网刷新。
+
+三、文件说明
+index.html               离线入口
+assets/app.js            完整前端 JavaScript（已包含 React 运行库）
+assets/preflight.css      原网页基础样式重置
+assets/style.css         原网页完整样式
+assets/favicon.svg       原网页图标
+source/                  原站点源码与项目文件
+
+四、部署到 GitHub Pages
+将 index.html、assets 文件夹一并上传到仓库根目录即可。
+source 文件夹用于保存原始工程，不参与静态页面运行。
