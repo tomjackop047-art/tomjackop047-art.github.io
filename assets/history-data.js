@@ -21851,6 +21851,73 @@ window.DLT_HISTORY_DATA = {
         "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1711_2026086.html"
       }
     ],
+    "redKillSix": [
+      {
+        "name": "尤泽红",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          3,
+          4,
+          9,
+          17,
+          24,
+          26
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_826_2026086.html"
+      },
+      {
+        "name": "baby冰冰",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          2,
+          9,
+          16,
+          17,
+          21,
+          25
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_205_2026086.html"
+      },
+      {
+        "name": "苏海图",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          1,
+          3,
+          5,
+          29,
+          30,
+          33
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1884_2026086.html"
+      },
+      {
+        "name": "z21217",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          3,
+          22,
+          25,
+          27,
+          29,
+          30
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_695_2026086.html"
+      },
+      {
+        "name": "水中月",
+        "score": "近10中8 · 7连红",
+        "nums": [
+          6,
+          8,
+          22,
+          24,
+          30,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_224_2026086.html"
+      }
+    ],
     "blueFixedTwo": [
       {
         "name": "神算一卦",
@@ -21896,6 +21963,33 @@ window.DLT_HISTORY_DATA = {
           9
         ],
         "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_43_2026086.html"
+      },
+      {
+        "name": "下一秒会幸福",
+        "score": "近10中7 · 7连红",
+        "nums": [
+          6,
+          9
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_681_2026086.html"
+      },
+      {
+        "name": "陆总",
+        "score": "近10中7 · 6连红",
+        "nums": [
+          4,
+          9
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_988_2026086.html"
+      },
+      {
+        "name": "叶天",
+        "score": "近10中7 · 6连红",
+        "nums": [
+          7,
+          12
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1631_2026086.html"
       }
     ],
     "blueKillThree": [
@@ -21948,6 +22042,1392 @@ window.DLT_HISTORY_DATA = {
           12
         ],
         "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1860_2026086.html"
+      },
+      {
+        "name": "刺客V绝情",
+        "score": "近10中9 · 12连红",
+        "nums": [
+          4,
+          6,
+          7
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_530_2026086.html"
+      },
+      {
+        "name": "飞翔的梦想",
+        "score": "近10中9 · 9连红",
+        "nums": [
+          1,
+          5,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_172_2026086.html"
+      },
+      {
+        "name": "超然",
+        "score": "近10中9 · 11连红",
+        "nums": [
+          1,
+          4,
+          11
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_728_2026086.html"
+      }
+    ]
+  },
+  "2026087": {
+    "issue": "2026087",
+    "sourceType": "top-ranking",
+    "updatedAt": "2026-08-03T06:05:28.221Z",
+    "experts": [
+      {
+        "name": "彩运2016",
+        "streak": "近10中7期",
+        "best": 5,
+        "numbers": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          32,
+          33,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_580_2026087.html"
+      },
+      {
+        "name": "蓝色的大海",
+        "streak": "近10中6期",
+        "best": 4,
+        "numbers": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1858_2026087.html"
+      },
+      {
+        "name": "木星的王",
+        "streak": "近10中6期",
+        "best": 4,
+        "numbers": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1737_2026087.html"
+      },
+      {
+        "name": "泪梦",
+        "streak": "近10中6期",
+        "best": 0,
+        "numbers": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_317_2026087.html"
+      },
+      {
+        "name": "不要中",
+        "streak": "近10中5期",
+        "best": 5,
+        "numbers": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1433_2026087.html"
+      },
+      {
+        "name": "淡定么",
+        "streak": "近10中5期",
+        "best": 3,
+        "numbers": [
+          1,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_556_2026087.html"
+      },
+      {
+        "name": "大神飞飞飞",
+        "streak": "近10中5期",
+        "best": 4,
+        "numbers": [
+          1,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20,
+          21,
+          22,
+          26,
+          27,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1438_2026087.html"
+      },
+      {
+        "name": "幸运就在两元中",
+        "streak": "近10中5期",
+        "best": 3,
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          25,
+          27,
+          29,
+          30,
+          31,
+          32,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_277_2026087.html"
+      }
+    ],
+    "killers": [
+      {
+        "name": "allison",
+        "score": "近10中10 · 16连红",
+        "nums": [
+          10,
+          11,
+          31
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1205_2026087.html"
+      },
+      {
+        "name": "刘雅萌",
+        "score": "近10中10 · 15连红",
+        "nums": [
+          5,
+          20,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_53_2026087.html"
+      },
+      {
+        "name": "63299追踪一等奖",
+        "score": "近10中10 · 15连红",
+        "nums": [
+          8,
+          12,
+          29
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_739_2026087.html"
+      },
+      {
+        "name": "大宝贝",
+        "score": "近10中10 · 17连红",
+        "nums": [
+          3,
+          8,
+          26
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1032_2026087.html"
+      },
+      {
+        "name": "伤心孤独",
+        "score": "近10中10 · 13连红",
+        "nums": [
+          2,
+          31,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_517_2026087.html"
+      },
+      {
+        "name": "月圆花好",
+        "score": "近10中10 · 18连红",
+        "nums": [
+          9,
+          23,
+          27
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_971_2026087.html"
+      },
+      {
+        "name": "必中一等奖",
+        "score": "近10中10 · 15连红",
+        "nums": [
+          21,
+          27,
+          29
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_157_2026087.html"
+      },
+      {
+        "name": "天天168",
+        "score": "近10中10 · 14连红",
+        "nums": [
+          12,
+          24,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1015_2026087.html"
+      }
+    ],
+    "redThree": [
+      {
+        "name": "假神",
+        "score": "近10中9 · 6连红",
+        "nums": [
+          28,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_642_2026087.html"
+      },
+      {
+        "name": "LV000123",
+        "score": "近10中9 · 7连红",
+        "nums": [
+          2,
+          18,
+          25
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1404_2026087.html"
+      },
+      {
+        "name": "红虎",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          8,
+          12,
+          31
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_808_2026087.html"
+      },
+      {
+        "name": "张唤",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          4,
+          12,
+          27
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1860_2026087.html"
+      },
+      {
+        "name": "啊河",
+        "score": "近10中8 · 9连红",
+        "nums": [
+          12,
+          20,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_806_2026087.html"
+      },
+      {
+        "name": "好运百分百",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          6,
+          21,
+          30
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1263_2026087.html"
+      },
+      {
+        "name": "足彩老正",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          18,
+          22,
+          23
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1125_2026087.html"
+      },
+      {
+        "name": "寒川濃茶",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          3,
+          6,
+          21
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_656_2026087.html"
+      },
+      {
+        "name": "一站到底",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          7,
+          8,
+          11
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_373_2026087.html"
+      },
+      {
+        "name": "禁言了不爽",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          5,
+          14,
+          23
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1711_2026087.html"
+      }
+    ],
+    "redKillSix": [
+      {
+        "name": "苏海图",
+        "score": "近10中9 · 7连红",
+        "nums": [
+          7,
+          16,
+          17,
+          18,
+          31,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1884_2026087.html"
+      },
+      {
+        "name": "尤泽红",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          1,
+          3,
+          13,
+          18,
+          29,
+          32
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_826_2026087.html"
+      },
+      {
+        "name": "baby冰冰",
+        "score": "近10中8 · 7连红",
+        "nums": [
+          1,
+          9,
+          14,
+          16,
+          18,
+          21
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_205_2026087.html"
+      },
+      {
+        "name": "迪拜乞丐",
+        "score": "近10中8 · 7连红",
+        "nums": [
+          3,
+          4,
+          7,
+          23,
+          31,
+          33
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_981_2026087.html"
+      },
+      {
+        "name": "梦如滗",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          10,
+          11,
+          12,
+          15,
+          21,
+          33
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1368_2026087.html"
+      }
+    ],
+    "blueFixedTwo": [
+      {
+        "name": "叶天",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          1,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1631_2026087.html"
+      },
+      {
+        "name": "神算一卦",
+        "score": "近10中8 · 7连红",
+        "nums": [
+          2,
+          4
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_883_2026087.html"
+      },
+      {
+        "name": "下一秒会幸福",
+        "score": "近10中7 · 7连红",
+        "nums": [
+          3,
+          9
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_681_2026087.html"
+      },
+      {
+        "name": "榕树赌神",
+        "score": "近10中7 · 8连红",
+        "nums": [
+          2,
+          11
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_237_2026087.html"
+      },
+      {
+        "name": "小晏",
+        "score": "近10中7 · 7连红",
+        "nums": [
+          1,
+          2
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_419_2026087.html"
+      },
+      {
+        "name": "che",
+        "score": "近10中7 · 5连红",
+        "nums": [
+          4,
+          10
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1277_2026087.html"
+      },
+      {
+        "name": "追梦人",
+        "score": "近10中7 · 9连红",
+        "nums": [
+          2,
+          11
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_49_2026087.html"
+      },
+      {
+        "name": "为你",
+        "score": "近10中7 · 6连红",
+        "nums": [
+          3,
+          10
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1416_2026087.html"
+      }
+    ],
+    "blueKillThree": [
+      {
+        "name": "shshai",
+        "score": "近10中10 · 11连红",
+        "nums": [
+          4,
+          8,
+          10
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_307_2026087.html"
+      },
+      {
+        "name": "飞翔的梦想",
+        "score": "近10中10 · 10连红",
+        "nums": [
+          1,
+          5,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_172_2026087.html"
+      },
+      {
+        "name": "超然",
+        "score": "近10中9 · 11连红",
+        "nums": [
+          2,
+          3,
+          10
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_728_2026087.html"
+      },
+      {
+        "name": "PaddyPower",
+        "score": "近10中9 · 10连红",
+        "nums": [
+          2,
+          5,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_853_2026087.html"
+      },
+      {
+        "name": "大大小混混",
+        "score": "近10中9 · 10连红",
+        "nums": [
+          3,
+          7,
+          9
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1251_2026087.html"
+      },
+      {
+        "name": "叮叮当",
+        "score": "近10中9 · 9连红",
+        "nums": [
+          4,
+          5,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_710_2026087.html"
+      },
+      {
+        "name": "大民哥",
+        "score": "近10中9 · 13连红",
+        "nums": [
+          4,
+          5,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1550_2026087.html"
+      },
+      {
+        "name": "神算一卦",
+        "score": "近10中9 · 12连红",
+        "nums": [
+          3,
+          5,
+          9
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_883_2026087.html"
+      }
+    ]
+  },
+  "2026088": {
+    "issue": "2026088",
+    "sourceType": "top-ranking",
+    "updatedAt": "2026-08-04T01:33:47.376Z",
+    "experts": [
+      {
+        "name": "彩运2016",
+        "streak": "近10中7期",
+        "best": 0,
+        "numbers": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          27,
+          28,
+          29,
+          31,
+          33,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_580_2026088.html"
+      },
+      {
+        "name": "材叔",
+        "streak": "近10中6期",
+        "best": 4,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          27,
+          28,
+          29,
+          32,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1402_2026088.html"
+      },
+      {
+        "name": "火炎焱丶",
+        "streak": "近10中5期",
+        "best": 3,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          31,
+          32,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1523_2026088.html"
+      },
+      {
+        "name": "巴西第一号",
+        "streak": "近10中5期",
+        "best": 4,
+        "numbers": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_2000_2026088.html"
+      },
+      {
+        "name": "彩神爷",
+        "streak": "近10中5期",
+        "best": 3,
+        "numbers": [
+          1,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          23,
+          24,
+          25,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_913_2026088.html"
+      },
+      {
+        "name": "阿凡达",
+        "streak": "近10中5期",
+        "best": 4,
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          21,
+          23,
+          24,
+          27,
+          28,
+          29,
+          31,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1011_2026088.html"
+      },
+      {
+        "name": "完美嘉年华",
+        "streak": "近10中5期",
+        "best": 4,
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          16,
+          18,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1677_2026088.html"
+      },
+      {
+        "name": "华哥",
+        "streak": "近10中5期",
+        "best": 3,
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          25,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_591_2026088.html"
+      }
+    ],
+    "killers": [
+      {
+        "name": "63299追踪一等奖",
+        "score": "近10中10 · 16连红",
+        "nums": [
+          19,
+          26,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_739_2026088.html"
+      },
+      {
+        "name": "大宝贝",
+        "score": "近10中10 · 17连红",
+        "nums": [
+          3,
+          7,
+          31
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1032_2026088.html"
+      },
+      {
+        "name": "伤心孤独",
+        "score": "近10中10 · 14连红",
+        "nums": [
+          6,
+          16,
+          25
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_517_2026088.html"
+      },
+      {
+        "name": "KEN913",
+        "score": "近10中10 · 14连红",
+        "nums": [
+          2,
+          18,
+          25
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1902_2026088.html"
+      },
+      {
+        "name": "文承竞彩",
+        "score": "近10中10 · 15连红",
+        "nums": [
+          14,
+          19,
+          20
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1378_2026088.html"
+      },
+      {
+        "name": "沫莫",
+        "score": "近10中10 · 14连红",
+        "nums": [
+          7,
+          29,
+          30
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1648_2026088.html"
+      },
+      {
+        "name": "宏宏",
+        "score": "近10中10 · 12连红",
+        "nums": [
+          1,
+          11,
+          18
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_38_2026088.html"
+      },
+      {
+        "name": "李家二少奶",
+        "score": "近10中10 · 12连红",
+        "nums": [
+          3,
+          12,
+          29
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1339_2026088.html"
+      }
+    ],
+    "redThree": [
+      {
+        "name": "张唤",
+        "score": "近10中9 · 7连红",
+        "nums": [
+          3,
+          10,
+          32
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1860_2026088.html"
+      },
+      {
+        "name": "大山",
+        "score": "近10中9 · 7连红",
+        "nums": [
+          1,
+          2,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1350_2026088.html"
+      },
+      {
+        "name": "阳曲县龙飞",
+        "score": "近10中9 · 7连红",
+        "nums": [
+          3,
+          22,
+          27
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1609_2026088.html"
+      },
+      {
+        "name": "王涛123",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          17,
+          19,
+          20
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_273_2026088.html"
+      },
+      {
+        "name": "陶醉自己",
+        "score": "近10中8 · 6连红",
+        "nums": [
+          3,
+          10,
+          16
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_760_2026088.html"
+      },
+      {
+        "name": "禁言了不爽",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          16,
+          19,
+          28
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1711_2026088.html"
+      },
+      {
+        "name": "幸运就在两元中",
+        "score": "近10中8 · 5连红",
+        "nums": [
+          13,
+          32,
+          33
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_277_2026088.html"
+      },
+      {
+        "name": "红动四海",
+        "score": "近10中8 · 5连红",
+        "nums": [
+          3,
+          15,
+          26
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_782_2026088.html"
+      },
+      {
+        "name": "巴西第一号",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          7,
+          12,
+          33
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_2000_2026088.html"
+      },
+      {
+        "name": "林风",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          2,
+          21,
+          34
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1315_2026088.html"
+      }
+    ],
+    "redKillSix": [
+      {
+        "name": "尤泽红",
+        "score": "近10中9 · 8连红",
+        "nums": [
+          2,
+          5,
+          11,
+          13,
+          21,
+          22
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_826_2026088.html"
+      },
+      {
+        "name": "雅康",
+        "score": "近10中9 · 7连红",
+        "nums": [
+          6,
+          7,
+          12,
+          14,
+          21,
+          23
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1848_2026088.html"
+      },
+      {
+        "name": "迪拜乞丐",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          2,
+          6,
+          16,
+          22,
+          29,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_981_2026088.html"
+      },
+      {
+        "name": "酷酷",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          4,
+          5,
+          6,
+          14,
+          32,
+          35
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_401_2026088.html"
+      },
+      {
+        "name": "牛人带收米",
+        "score": "近10中8 · 5连红",
+        "nums": [
+          1,
+          7,
+          15,
+          24,
+          25,
+          30
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1293_2026088.html"
+      }
+    ],
+    "blueFixedTwo": [
+      {
+        "name": "辣椒油",
+        "score": "近10中8 · 8连红",
+        "nums": [
+          2,
+          12
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1549_2026088.html"
+      },
+      {
+        "name": "神算一卦",
+        "score": "近10中8 · 7连红",
+        "nums": [
+          2,
+          7
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_883_2026088.html"
+      },
+      {
+        "name": "焦叔必中",
+        "score": "近10中7 · 10连红",
+        "nums": [
+          5,
+          7
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1999_2026088.html"
+      },
+      {
+        "name": "自费自信",
+        "score": "近10中7 · 6连红",
+        "nums": [
+          3,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_926_2026088.html"
+      },
+      {
+        "name": "别问我为何",
+        "score": "近10中7 · 6连红",
+        "nums": [
+          3,
+          7
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1428_2026088.html"
+      },
+      {
+        "name": "哦卡通",
+        "score": "近10中7 · 5连红",
+        "nums": [
+          1,
+          5
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_117_2026088.html"
+      },
+      {
+        "name": "che",
+        "score": "近10中7 · 5连红",
+        "nums": [
+          7,
+          12
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1277_2026088.html"
+      },
+      {
+        "name": "为你",
+        "score": "近10中7 · 6连红",
+        "nums": [
+          1,
+          5
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1416_2026088.html"
+      }
+    ],
+    "blueKillThree": [
+      {
+        "name": "飞翔的梦想",
+        "score": "近10中10 · 11连红",
+        "nums": [
+          2,
+          4,
+          5
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_172_2026088.html"
+      },
+      {
+        "name": "PaddyPower",
+        "score": "近10中10 · 10连红",
+        "nums": [
+          5,
+          10,
+          12
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_853_2026088.html"
+      },
+      {
+        "name": "大大小混混",
+        "score": "近10中10 · 10连红",
+        "nums": [
+          5,
+          6,
+          7
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1251_2026088.html"
+      },
+      {
+        "name": "匿名的好友",
+        "score": "近10中9 · 13连红",
+        "nums": [
+          4,
+          6,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1361_2026088.html"
+      },
+      {
+        "name": "神算一卦",
+        "score": "近10中9 · 12连红",
+        "nums": [
+          1,
+          5,
+          6
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_883_2026088.html"
+      },
+      {
+        "name": "潘昌林",
+        "score": "近10中9 · 11连红",
+        "nums": [
+          1,
+          2,
+          9
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1889_2026088.html"
+      },
+      {
+        "name": "何丽",
+        "score": "近10中9 · 9连红",
+        "nums": [
+          4,
+          5,
+          8
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_1787_2026088.html"
+      },
+      {
+        "name": "台上忆吹箫",
+        "score": "近10中9 · 10连红",
+        "nums": [
+          1,
+          7,
+          10
+        ],
+        "url": "https://www.yiqicai.com/ex/dltex/tjxq_39_425_2026088.html"
       }
     ]
   }
@@ -23056,6 +24536,32 @@ window.DLT_DRAW_RESULTS = {
     "back": [
       5,
       7
+    ]
+  },
+  "2026086": {
+    "front": [
+      10,
+      11,
+      18,
+      22,
+      35
+    ],
+    "back": [
+      6,
+      12
+    ]
+  },
+  "2026087": {
+    "front": [
+      5,
+      10,
+      16,
+      24,
+      27
+    ],
+    "back": [
+      4,
+      10
     ]
   }
 };
